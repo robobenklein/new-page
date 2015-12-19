@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
-  "name": "RoboNewTab",
-  "short_name": "RoboNewTab",
+  "name": "Robo's New Tab",
+  "short_name": "RoboTab",
   "description": "",
   "version": "0.0.1",
   "minimum_chrome_version": "38",
@@ -11,7 +11,10 @@
     "128": "assets/icon_128.png"
   },
 
-  "chrome_url_overrides" : {
+  "chrome_url_overrides": {
     "newtab": "index.html"
-  }
+  },
+  "permissions": [
+    "downloads"
+  ]
 }
