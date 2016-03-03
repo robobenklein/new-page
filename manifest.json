@@ -3,7 +3,7 @@
   "name": "Robo's New Tab",
   "short_name": "RoboTab",
   "description": "",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "minimum_chrome_version": "38",
 
   "icons": {
